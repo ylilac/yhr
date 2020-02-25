@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+
+server:
+  port: 8080
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/**
